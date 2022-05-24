@@ -1,0 +1,16 @@
+.mottoWrapper {
+  display: grid;
+  grid-templace-columns: 1fr;
+  grid-templace-rows: 1fr;
+
+  border: 2px solid red;
+}
+
+.motto {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.motto:not(.active) {
+  display: none;
+}
